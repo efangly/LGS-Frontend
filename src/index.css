@@ -1,0 +1,94 @@
+@font-face {
+  font-family: MainFont;
+  src: local("MNPhatKaphraoBold"),url("./assets/font/MNPhatKaphraoBold.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: MainFont;
+  background-color: #B2967D;
+}
+
+hr {
+  color: #ffffff;
+  border: 2px;
+  border-style: solid;
+  border-radius: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input [type=text], input[type=password], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-select {
+  color: #747474 !important;
+}
+
+.bg-nav, .modal-content {
+  background-color: #916848 !important;
+  justify-content: space-between;
+  border: 4px;
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-radius: 0.8rem;
+}
+
+.modal-body {
+  background-color: #B2967D;
+}
+
+.btn-box {
+  background-color: #B2967D;
+  border: none;
+  color: white;
+  padding: 5px 16px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 0.50rem;
+}
+
+.btn-box:hover {
+  background-color: #ad8460;
+  color: white;
+}
+
+.btn-outline-warning:hover {
+  color: white;
+}
+
+.bg-list {
+  background-color: #B2967D;
+  font-size: 20px;
+}
+
+.bg-box1 {
+  background-color: #916848 !important;
+  border: 4px;
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-radius: 0.8rem;
+  min-height: 600px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.no-focusborder {
+  outline-style: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.no-focusborder:focus {
+  outline-style: none;
+  box-shadow: none;
+  background-color: transparent;
+}
